@@ -21,7 +21,7 @@ createRoot(document.getElementById("root")).render(
         <div id="darkmode">
         <Header />
         <Routes>
-        <Route path="/Gamix" element={<App/>}  />
+        <Route path="/Gamix/" element={<App/>}  />
         <Route path="/login" element={<Login/>} />
         <Route path="/signup" element={<Signup/>} />
         <Route path="/cart" element={<Cart/>} />
